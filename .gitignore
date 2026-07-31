@@ -1,0 +1,21 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modèle entraîné (régénérable, sauf si tu veux le versionner explicitement)
+model/*.joblib
+
+# Secrets
+.env
+.kaggle/kaggle.json
+
+# OS
+.DS_Store
+
+# Logs
+*.log
