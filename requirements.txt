@@ -8,3 +8,5 @@ nbformat==5.10.4
 ipykernel
 jupyter
 kaggle
+optuna
+shap
