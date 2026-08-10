@@ -1,0 +1,46 @@
+{
+  "model_version": "1.0.0",
+  "decision_threshold": 0.06,
+  "expected_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "best_hyperparameters": {
+    "C": 2.6780773845790105,
+    "penalty": "l2",
+    "class_weight": "balanced",
+    "max_iter": 2944,
+    "tol": 0.000607544432471206,
+    "solver": "saga",
+    "random_state": 42
+  },
+  "validation_performance": {
+    "recall_test": 0.979,
+    "precision_test": 0.366,
+    "cost_test_eur": 38770,
+    "confusion_matrix_test": {
+      "tp": 366,
+      "fp": 633,
+      "fn": 8,
+      "tn": 402
+    }
+  },
+  "trained_on_n_samples": 7043
+}

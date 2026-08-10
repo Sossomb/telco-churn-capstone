@@ -10,3 +10,6 @@ jupyter
 kaggle
 optuna
 shap
+pytest
+fastapi
+uvicorn
