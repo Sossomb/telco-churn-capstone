@@ -8,7 +8,6 @@ Inspirée de Mitchell et al., *"Model Cards for Model Reporting"* (FAccT 2019).
 - **Version** : 1.0.0
 - **Hyperparamètres** : optimisés par Optuna (60 essais, 6 hyperparamètres). `C=2,68`, `penalty=l2`, `class_weight=balanced`, `max_iter=2944`, `tol=0,0006`.
 - **Seuil de décision** : 0,06 (optimisé sur les coûts métier, pas le défaut 0,5).
-- **Développeuse** : Khady, Master IA, Module 7 (capstone).
 - **Date** : 2026.
 
 ## Utilisation prévue
